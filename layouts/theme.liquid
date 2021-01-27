@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  {% include "theme_head" %}
+  <body>
+
+    {% section "header" %}
+    {{ content_for_layout }}
+    {% section "footer" %}
+    {% include "powered_by" %}
+
+    {% include "theme_scripts" %}
+  </body>
+</html>
